@@ -2,9 +2,10 @@ name: security-Quality scanning.
 
 on:
   push:
-    branches: [ "*" ]
-  pull_request:
-    branches: [ "main", ]
+    branches:
+      -  All
+ # pull_request:
+ #   branches: [ "main", ]
   
 jobs:
   secret-scan:
